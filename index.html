@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreeMusketeers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+</body>
+<div class="container">
+    <div class="title-box">
+        <h1>Impact of Using Renewable Energy on CO2 per Capita</h1>
+    </div>
+
+
+    <div class="section">
+      
+      <p>Climate change is one of the most important global problems of today, and the transition to renewable energy sources is of critical importance to reduce the effects of this problem. This project examines the relationship between CO2 emissions per capita and the use of renewable energy sources. By analysing data sets related to global CO2 emissions and renewable energy use, our purpose is identifying trends and solutions for promoting sustainable energy practices. With visualizations and data-based insights, we try to provide a extensive overview of the current state of renewable energy use and its effects on decreasing the carbon footprint.</p>
+      
+      
+    </div>
+
+    <div class="section">
+      <h2>Data Analysis</h2>
+    </section>
+      <p>In order to do this, we took the total amount of electricity production of countries by year and the amount of electricity generated from renewable energy sources. Then, by dividing these two data into each other, we found the ratio of the amount of electricity generated from new energy sources to the total amount of electricity production, and using these ratios, we created the following map. Where you can see the yearly electricity production from renewable sources over total electricity production for the countries.</p>
+        <iframe src="Images/interactive.html" width="100%" height="600px" style="border:none;"></iframe>
+      </ul>
+    </setion>  
+    <div class = "section">
+
+      <p>
+
+      </p>
+    </section>
+      <p>After that we wondered has the use of renewable energy sources increased in America due to the clean air act signed in America in 1963 and how CO2 emissions would be affected if they were increased. 
+        In order to satisfy our curiosty we took the data of use of renewable sources beggining from year 1960 to now for United States. Then we created a line chart below.
+      </p>
+      <div class="image-container">
+        <img src="Images/renewablesourceuse.png" alt="Use of renewable sources">
+    </div>
+
+    <div class="section">
+      
+      <p>We can see that the use of renewable sources has been increasing in United States. But, does this affect the CO2 emissions in United States? To have the answer of this and also make prediction for the future we have created the scatter plot of yearly CO2 emissions per capita. Then we fitted a regression line but the line was not satisfying. So we changed the lineer regression line to a second degree polynomial line.</p>
+    </div>
+    
+  </div>
+
+    <div class="section">
+      <p>The equation of the polynom is: -0.005732x²+22.7906x-22631.8142</p>
+      <p>If we want prediction on CO2 emissions of United States in year 2050, we can put 2050 in the equation and we will get 0.1858!!!
+        Which seems not possible. So we took the logarithm of CO2 emissions per capita. Then new formula is -0.00032089x²+1.27578928x-1264.9998. And the graph is below.
+      </p>
+      <div class="image-container">
+        <img src="Images/polynomial.png" alt="yearly co2 emissions">
+      <div class = "section">
+      </p>Now if we put 2050 in equation we will get CO2 per capita 6.22 tones for year 2050.</p>
+      </div>
+
+    <div class="section">
+      
+      <p>Now our question is that the ratio that we mentioned before (electricity generation by renewable sources/total electricity generation) is have effect on CO2 emissions per capita and if it does, does it have a negative impact on climate or positive.
+        To understand that we put the ratio on x axis and CO2 emissions per capita on y axis for United State. Again we used the last 62 years data since we have investigated the time after The Clean Air Act.
+        And we also take the logarithm of y axis (CO2 per capita) to not get a negative value when we investigate what will be the CO2 emissions per capita if we can increase the ratio to 1. Which is producing electricity by using only renewable sources.
+      </p>
+      <div class="image-container">
+        <img src="Images/logaritmicscatter.png" alt="Ratio vs CO2 emissions per capita">
+      </div>  
+    </div>
+
+    <div class="section">
+ 
+      <p>As we can see in the chart the equation for y is -2.90x+3.28 and now we can make predictions about CO2 per capita for United States.</p>
+     
+    </div>
+    <div class="section">
+      <h2>Conclusion</h2>
+    </section>
+    <div class="section">
+      
+      <div class="section">
+      
+        <p>We analysed the critical relationship between the use of renewable energy sources and CO2 emissions per capita in terms of climate change. By using historical data, we observed an increase in the use of renewable energy sources in the United States since 1960, particularly after the implementation of the Clean Air Act in 1963. This trend means a positive impact for more sustainable energy practices.</p>
+
+        <p>The polynomial regression model allowed us to predict CO2 emissions per capita in the United States for future years. While the initial model provided inconvenient results, changing y axis with taking logarithms we get more reliable predictions, estimating CO2 emissions per capita to be approximately 6.22 tonnes by 2050. Furthermore, our analysis of the ratio of electricity generation from renewable sources to total electricity generation illustrated a negative correlation with CO2 emissions, representing that increased reliance on renewable energy sources has the potential to significantly reduce carbon footprints.</p>
+          
+        <p>In conclusion, our findings emphasize that increasing the share of renewable energy sources in electricity generation is an effective strategy to combat climate change. Policies and initiatives that promote the adoption of renewable energy can play a vital role in reducing CO2 emissions and ensuring a sustainable future for our planet.</p>
+        
+        
+      </div>
+      
+      
+      
+    </div>    
+
+
+</html>
