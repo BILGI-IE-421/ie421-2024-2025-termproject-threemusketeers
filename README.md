@@ -5,11 +5,11 @@ Topic of our project is renewable energy adoption and climate action. And our re
 *  ⁠What are the responses that countries receive as a result of their investments in renewable energy? Which countries have made the most investments?
 
 # Used Data
-*⁠  ⁠Annual CO2 emissions per country
-*⁠  ⁠Electricity generations 
-*⁠  ⁠Electricity generations from renewable sources
-*⁠  ⁠Energy consumption by country by year
-*⁠  ⁠Population
+*⁠ Annual CO2 emissions per country
+*⁠ ⁠Electricity generations 
+*⁠ ⁠Electricity generations from renewable sources
+*⁠ ⁠Energy consumption by country by year
+*⁠ ⁠Population
 
 All the data is from ["Our World in Data"](https://ourworldindata.org/)
 
